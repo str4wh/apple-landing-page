@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* navigator bar */
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    color: rgb(168, 158, 158);
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul li{
+    display: inline-block;
+    padding: 12px 60px;
+    transition: color 1s;
+}
+ul li:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* main body */
+
+.apple-container{
+    background: url(https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 100vh;
+    background-size: cover;
+}
+.apple-text{
+    align-items: center;
+    display: block;
+}
+h2{
+    align-items: center;
+}
