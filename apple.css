@@ -36,11 +36,40 @@ ul li:hover{
     background: url(https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600);
     height: 100vh;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .apple-text{
-    align-items: center;
-    display: block;
+    text-align: center;
+
 }
+
 h2{
-    align-items: center;
+    align-content: center;
+    color: white;
+    border: transparent;
+    font-size: 200px;
+    font-weight: bolder;
+    transition: color 0.3s ease;
+}
+
+h2:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+button{
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000000;
+    color: rgb(139, 139, 139);
+    transition: all ease-out 0.3s;
+}
+
+button:hover{
+    background-color: #fff;
+    color: black;
 }
