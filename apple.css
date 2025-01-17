@@ -24,6 +24,7 @@ ul li{
     display: inline-block;
     padding: 12px 60px;
     transition: color 1s;
+    position: relative;
 }
 ul li:hover{
     color: aliceblue;
@@ -72,4 +73,54 @@ button{
 button:hover{
     background-color: #fff;
     color: black;
+}
+
+/* drop down menu */
+.drop_down_menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+    padding: 20px;
+    width: 600px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks ul li:hover .drop_down_menu{
+    display: flex;
+}
+
+.menu-section{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.menu-section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-section ul li{
+    padding: 8px 0;
+}
+
+.menu-section ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+
+.menu-section ul li a span{
+    font-size: 18px;
+    color: #ccc;
+}
+
+.menu-section ul li a:hover{
+   color: #ccc; 
 }
